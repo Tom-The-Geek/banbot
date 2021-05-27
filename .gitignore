@@ -1,0 +1,8 @@
+# matrix-nio data
+store/
+# config
+.env
+# link data
+store.json
+# pycharm
+.idea/

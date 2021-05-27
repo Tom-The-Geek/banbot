@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "banbot"
+version = "0.1.0"
+description = ""
+authors = ["Tom_The_Geek <tomthegeek.8559@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matrix-nio = {extras = ["e2e"], version = "^0.18.1"}
+python-dotenv = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
