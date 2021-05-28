@@ -18,6 +18,18 @@ BOT_PASSWORD=SecUre_p@ssw0rd123123
 # Full user identifier of the bot's owner
 BOT_OWNER=@owner:example.org
 ```
+The bot's owner is the only account that is allowed to invite the bot to rooms or issue the linking commands
 
 ## Running
 `poetry run python src/main.py` to launch the bot.
+
+## Linking rooms
+To manage links between rooms, the bot owner can use the following commands:
+Create a link to another room
+```
+!ban-sync link #example-room:example.com
+```
+Remove all links that the room is part of
+```
+!ban-sync unlink
+```
